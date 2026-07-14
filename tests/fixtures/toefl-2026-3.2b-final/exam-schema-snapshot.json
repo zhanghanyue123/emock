@@ -1,0 +1,19 @@
+{
+  "examId": "32b-c8805fb2",
+  "title": "3.2新托福真题B卷",
+  "status": "partially_published",
+  "config": {
+    "publicationStatus": "ready",
+    "humanVerificationStatus": "verified",
+    "verifiedContentSource": "verified-content.json",
+    "canonicalReference": true,
+    "formatProfile": "toefl-2026-3.2b-final",
+    "locked": true,
+    "lockedAt": "2026-07-13T15:43:48.402Z"
+  },
+  "sectionCount": 4,
+  "moduleCount": 6,
+  "questionCount": 120,
+  "stimulusCount": 99,
+  "audioGroupCount": 58
+}

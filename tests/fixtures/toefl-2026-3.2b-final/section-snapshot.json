@@ -1,0 +1,79 @@
+[
+  {
+    "id": "reading",
+    "title": "Reading",
+    "status": "published",
+    "timing": {
+      "scope": "section",
+      "durationSeconds": 1200
+    },
+    "modules": 2,
+    "config": {
+      "importStatus": "ready",
+      "sourceFiles": [
+        "3.2 套二 阅读.docx"
+      ],
+      "audioCount": 0,
+      "importedAnswerCount": 50,
+      "issueCount": 0
+    }
+  },
+  {
+    "id": "listening",
+    "title": "Listening",
+    "status": "published",
+    "timing": {
+      "scope": "section",
+      "durationSeconds": 2160
+    },
+    "modules": 2,
+    "config": {
+      "importStatus": "ready",
+      "sourceFiles": [
+        "3.2 套二 听力.docx"
+      ],
+      "audioCount": 1,
+      "importedAnswerCount": 47,
+      "issueCount": 0
+    }
+  },
+  {
+    "id": "writing",
+    "title": "Writing",
+    "status": "published",
+    "timing": {
+      "scope": "section",
+      "durationSeconds": 1740
+    },
+    "modules": 1,
+    "config": {
+      "importStatus": "ready",
+      "sourceFiles": [
+        "3.2 套二 写作.docx"
+      ],
+      "audioCount": 0,
+      "importedAnswerCount": 0,
+      "issueCount": 0
+    }
+  },
+  {
+    "id": "speaking",
+    "title": "Speaking",
+    "status": "needs_review",
+    "timing": {
+      "scope": "section",
+      "durationSeconds": 960
+    },
+    "modules": 1,
+    "config": {
+      "importStatus": "needs_review",
+      "sourceFiles": [
+        "3.2 套二 口语.docx"
+      ],
+      "audioCount": 1,
+      "importedAnswerCount": 0,
+      "issueCount": 11,
+      "expectedQuestionCount": 11
+    }
+  }
+]

@@ -1,0 +1,54 @@
+node_modules/
+.next/
+out/
+dist/
+.env*
+!.env.example
+.npm-cache/
+.cache/
+.bin/
+.DS_Store
+.reference-repos/
+content-source.local.json
+public/content/*
+!public/content/.gitkeep
+.vercel
+
+# Dependencies and builds
+node_modules/
+.next/
+.vercel/
+tsconfig.tsbuildinfo
+
+# Secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Local source materials and reports
+真题合集7-5/
+artifacts/
+artifacts-*.png
+
+# Temporarily exclude large production assets
+public/
+
+# System files
+.DS_Store
+*.log
+
+node_modules/
+.next/
+.vercel/
+.env
+.env.local
+.env.*.local
+tsconfig.tsbuildinfo
+
+真题合集7-5/
+public/
+artifacts/
+artifacts-*.png
+.DS_Store
+*.log

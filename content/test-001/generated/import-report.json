@@ -1,0 +1,23 @@
+{
+  "testId": "test-001",
+  "generatedAt": "2026-07-12T16:23:03.090Z",
+  "sourceSummary": {
+    "pdfFiles": 0,
+    "audioFiles": 0,
+    "pagesRendered": 0,
+    "pagesWithTextLayer": 0,
+    "pagesNeedingOcr": 0
+  },
+  "recognized": {
+    "sections": 1,
+    "modules": 1,
+    "questions": 2
+  },
+  "needsReview": [],
+  "matchedAudio": 0,
+  "importedAnswers": 2,
+  "notes": [
+    "PDF and audio files are import sources only; formal practice uses generated structured JSON.",
+    "This pipeline records staged metadata and validates existing generated JSON. It does not guess answers or publish drafts automatically."
+  ]
+}

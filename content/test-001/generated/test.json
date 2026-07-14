@@ -1,0 +1,84 @@
+{
+  "id": "test-001",
+  "title": "Structured Reading Sample",
+  "version": 1,
+  "status": "published",
+  "sections": [
+    {
+      "id": "reading",
+      "key": "reading",
+      "title": "Reading",
+      "instructions": "Read the passage and answer each question. This structured sample does not show the raw PDF in the exam view.",
+      "durationSeconds": 1200,
+      "modules": [
+        {
+          "id": "reading-m1",
+          "moduleNumber": 1,
+          "title": "Module 1",
+          "navigationMode": "free",
+          "questions": [
+            {
+              "id": "reading-m1-q1",
+              "section": "reading",
+              "moduleId": "reading-m1",
+              "number": 1,
+              "type": "complete_words",
+              "instructions": "Complete each word by typing the missing letters.",
+              "passageId": "passage-urban-trees",
+              "correctAnswer": {
+                "type": "complete_words",
+                "values": {
+                  "blank-1": "duce",
+                  "blank-2": "tain"
+                }
+              },
+              "explanation": "The completed words are reduce and maintain.",
+              "sourcePage": 1,
+              "confidence": 1,
+              "needsReview": false
+            },
+            {
+              "id": "reading-m1-q2",
+              "section": "reading",
+              "moduleId": "reading-m1",
+              "number": 2,
+              "type": "single_choice",
+              "prompt": "According to the passage, why do city planners value urban trees?",
+              "passageId": "passage-urban-trees",
+              "options": [
+                {
+                  "id": "q2-a",
+                  "label": "A",
+                  "text": "They make streets easier to widen."
+                },
+                {
+                  "id": "q2-b",
+                  "label": "B",
+                  "text": "They reduce heat and support local habitats."
+                },
+                {
+                  "id": "q2-c",
+                  "label": "C",
+                  "text": "They remove the need for public parks."
+                },
+                {
+                  "id": "q2-d",
+                  "label": "D",
+                  "text": "They prevent all traffic noise."
+                }
+              ],
+              "correctAnswer": {
+                "type": "single_choice",
+                "optionId": "q2-b"
+              },
+              "explanation": "The passage states that tree canopies cool streets and provide habitat.",
+              "sourcePage": 1,
+              "confidence": 1,
+              "needsReview": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

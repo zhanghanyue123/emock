@@ -1,0 +1,13 @@
+{
+  "reading-m1-q1": {
+    "type": "complete_words",
+    "values": {
+      "blank-1": "duce",
+      "blank-2": "tain"
+    }
+  },
+  "reading-m1-q2": {
+    "type": "single_choice",
+    "optionId": "q2-b"
+  }
+}

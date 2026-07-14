@@ -1,0 +1,8 @@
+{
+  "pages": [],
+  "updatedAt": "2026-07-12T16:23:03.086Z",
+  "status": "not_run",
+  "notes": [
+    "Automatic PDF text extraction is intentionally staged. Add OCR/text output here before parsing questions."
+  ]
+}

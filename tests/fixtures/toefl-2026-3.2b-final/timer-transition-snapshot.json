@@ -1,0 +1,12 @@
+{
+  "sectionOrder": [
+    "reading",
+    "listening",
+    "writing",
+    "speaking"
+  ],
+  "moduleLocking": "reading module boundary locked in exam mode",
+  "sectionAutoAdvance": true,
+  "practiceSectionResult": true,
+  "fullMockFinalResult": true
+}

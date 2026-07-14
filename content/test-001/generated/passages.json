@@ -1,0 +1,30 @@
+[
+  {
+    "id": "passage-urban-trees",
+    "title": "Urban Trees",
+    "paragraphs": [
+      {
+        "id": "p1",
+        "text": "Urban trees reduce summer heat and maintain habitats for birds and insects. City planners use tree canopies to make streets more comfortable for people who walk or wait for buses.",
+        "blanks": [
+          {
+            "id": "blank-1",
+            "prefix": "re",
+            "missingLength": 4,
+            "suffix": ""
+          },
+          {
+            "id": "blank-2",
+            "prefix": "main",
+            "missingLength": 4,
+            "suffix": ""
+          }
+        ]
+      },
+      {
+        "id": "p2",
+        "text": "Although trees require maintenance, many cities consider them a practical form of infrastructure because they cool pavement, absorb rainwater, and improve neighborhood life."
+      }
+    ]
+  }
+]

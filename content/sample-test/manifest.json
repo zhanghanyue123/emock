@@ -1,0 +1,99 @@
+{
+  "id": "sample-test",
+  "title": "Sample Test 01",
+  "description": "Framework demonstration test. Add real PDF and MP3 files to try the full experience.",
+  "version": 1,
+  "sections": {
+    "reading": {
+      "enabled": true,
+      "title": "Reading",
+      "durationMinutes": 35,
+      "pdf": "pdf/reading.pdf",
+      "audio": [],
+      "questions": [
+        {
+          "id": "reading-1",
+          "number": 1,
+          "type": "single_choice",
+          "options": ["A", "B", "C", "D"],
+          "correctAnswer": "B",
+          "explanation": "Sample explanation.",
+          "page": 1
+        },
+        {
+          "id": "reading-2",
+          "number": 2,
+          "type": "multiple_choice",
+          "options": ["A", "B", "C", "D"],
+          "correctAnswer": ["A", "C"],
+          "maxSelections": 2,
+          "explanation": "Sample multi-select explanation.",
+          "page": 2
+        }
+      ]
+    },
+    "listening": {
+      "enabled": true,
+      "title": "Listening",
+      "durationMinutes": 36,
+      "pdf": "pdf/listening.pdf",
+      "audio": [
+        {
+          "id": "listening-audio-1",
+          "title": "Conversation 1",
+          "file": "audio/listening-01.mp3",
+          "allowReplay": true
+        },
+        {
+          "id": "listening-audio-2",
+          "title": "Lecture 1",
+          "file": "audio/listening-02.mp3",
+          "allowReplay": false
+        }
+      ],
+      "questions": [
+        {
+          "id": "listening-1",
+          "number": 1,
+          "type": "single_choice",
+          "options": ["A", "B", "C", "D"],
+          "correctAnswer": "A",
+          "explanation": "Sample explanation.",
+          "audioId": "listening-audio-1",
+          "page": 1
+        }
+      ]
+    },
+    "speaking": {
+      "enabled": false,
+      "title": "Speaking",
+      "durationMinutes": 16,
+      "pdf": null,
+      "audio": [],
+      "questions": [
+        {
+          "id": "speaking-1",
+          "number": 1,
+          "type": "speaking_placeholder",
+          "prompt": "Recording will be added later."
+        }
+      ]
+    },
+    "writing": {
+      "enabled": true,
+      "title": "Writing",
+      "durationMinutes": 29,
+      "pdf": "pdf/reading.pdf",
+      "audio": [],
+      "questions": [
+        {
+          "id": "writing-1",
+          "number": 1,
+          "type": "essay",
+          "prompt": "Write your answer here.",
+          "page": 1
+        }
+      ]
+    }
+  }
+}

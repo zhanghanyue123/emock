@@ -1,0 +1,52 @@
+{
+  "name": "toefl-simulator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "predev": "npm run sync-content",
+    "build": "next build --webpack",
+    "prebuild": "npm run sync-content",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0",
+    "test": "node --experimental-transform-types test/vocabulary.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "build-exam": "node scripts/build-exam.mjs",
+    "build-pdf-exams": "node scripts/build-pdf-exams.mjs",
+    "migrate-toefl-packs": "node scripts/migrate-toefl-packs.mjs",
+    "finalize-reading-format": "node scripts/finalize-reading-format.mjs",
+    "fix-2-8-reading": "node scripts/fix-2-8-reading-sources.mjs",
+    "fix-2-8-complete-words": "node scripts/fix-2-8-complete-words.mjs",
+    "fix-2-8-reading-material": "node scripts/fix-2-8-reading-material-and-m2-choices.mjs",
+    "fix-3-2b-publishable": "node scripts/fix-3-2b-publishable-content.mjs",
+    "fix-3-2b-build-sentence-inline": "node scripts/fix-3-2b-build-sentence-inline.mjs",
+    "fix-3-2b-build-sentence-visual-layouts": "node scripts/fix-3-2b-build-sentence-visual-layouts.mjs",
+    "fix-3-2b-reading-visual-layouts": "node scripts/fix-3-2b-reading-visual-layouts.mjs",
+    "validate-2-8-reading": "node scripts/validate-2-8-reading-readiness.mjs",
+    "setup-ocr": "bash scripts/ocr/build-apple-vision-helper.sh",
+    "ocr-doctor": "node scripts/ocr/ocr-doctor.mjs",
+    "validate-exams": "node scripts/validate-exams.mjs",
+    "audit-content": "node scripts/audit-content-integrity.mjs",
+    "audit-sources": "node scripts/audit-source-inventories.mjs",
+    "import-test": "node scripts/import-test/import-test.mjs",
+    "validate-test": "node scripts/import-test/validate-generated-test.mjs",
+    "sync-content": "node scripts/sync-content.mjs"
+  },
+  "dependencies": {
+    "alipay-sdk": "^4.14.0",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "19.2.6",
+    "@types/react-dom": "19.2.3",
+    "autoprefixer": "10.4.19",
+    "eslint": "9.39.2",
+    "eslint-config-next": "16.2.10",
+    "postcss": "8.4.39",
+    "tailwindcss": "3.4.4",
+    "typescript": "5.5.3"
+  }
+}

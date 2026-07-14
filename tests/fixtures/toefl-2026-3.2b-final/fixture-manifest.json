@@ -1,0 +1,15 @@
+{
+  "profile": "toefl-2026-3.2b-final",
+  "referenceFolder": "3.2新托福真题B卷",
+  "generatedAt": "2026-07-13T15:44:25.886Z",
+  "hashes": {
+    "display-unit-snapshot.json": "912a509bf64072a546c810ae67bb493f57eeeda26f501a9d5518805a1a6e6862",
+    "exam-schema-snapshot.json": "bc0b2bd79330ddcba33c9cc00a69953454715797bebbac3bc0026d84e62a0318",
+    "renderer-mapping-snapshot.json": "6aacf5aaae84ee316a405ccd76968bf6fcb067bda986c6e0a174307a4592119b",
+    "review-snapshot.json": "72c2e3e99ba72df44bc6b07026f0c6e02e681b2da6465fa6f21a7a0e06339dab",
+    "scoring-snapshot.json": "344a3497edb4a977c9ff48bd4b24d05c3a2e01251fddbb9dddbeef235c11aacc",
+    "section-snapshot.json": "aa3558aeb25eb344889140ef0f35d536a921647e13a738687d5c92df05ef6e55",
+    "timer-transition-snapshot.json": "1daf3903ff0b0e192ce8e957776a3243df85b324171d1893093b3dd15b39f9a4",
+    "visual-component-snapshot.json": "0af3aebfd7666c085240c82c5b3df62bf7513b3fae1df6790c2eb2f7e7a0ba90"
+  }
+}

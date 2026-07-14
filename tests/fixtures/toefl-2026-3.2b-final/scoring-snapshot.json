@@ -1,0 +1,34 @@
+[
+  {
+    "key": "toefl.complete_words:toefl.complete_words",
+    "count": 30
+  },
+  {
+    "key": "toefl.reading_choice:toefl.exact_single_choice",
+    "count": 20
+  },
+  {
+    "key": "toefl.listen_choose_response:toefl.exact_single_choice",
+    "count": 47
+  },
+  {
+    "key": "toefl.build_sentence:toefl.build_sentence",
+    "count": 10
+  },
+  {
+    "key": "toefl.write_email:toefl.manual_or_ai",
+    "count": 1
+  },
+  {
+    "key": "toefl.academic_discussion:toefl.manual_or_ai",
+    "count": 1
+  },
+  {
+    "key": "toefl.listen_repeat:toefl.manual_or_ai",
+    "count": 7
+  },
+  {
+    "key": "toefl.interview_response:toefl.manual_or_ai",
+    "count": 4
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "reading": {
+    "templates": [
+      {
+        "template": "complete_words",
+        "count": 3
+      },
+      {
+        "template": "source_image_fallback",
+        "count": 20
+      },
+      {
+        "template": "table",
+        "count": 1
+      },
+      {
+        "template": "email",
+        "count": 2
+      },
+      {
+        "template": "notice",
+        "count": 1
+      },
+      {
+        "template": "academic_passage",
+        "count": 2
+      }
+    ]
+  },
+  "listening": {
+    "imageRule": {
+      "fit": "contain",
+      "objectPosition": "center center",
+      "maxWidth": "72%",
+      "maxHeight": "68%"
+    }
+  },
+  "writing": {
+    "buildSentence": {
+      "renderer": "toefl.writing.build_sentence_inline",
+      "usesSourceScreenshot": false,
+      "usesCoordinateOverlay": false
+    }
+  },
+  "speaking": {
+    "listenRepeat": {
+      "fit": "center_crop",
+      "scale": 1.18,
+      "objectPosition": "50% 50%"
+    },
+    "interview": {
+      "fit": "contain",
+      "scale": 1,
+      "objectPosition": "50% 50%"
+    }
+  }
+}
