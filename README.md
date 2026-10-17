@@ -191,3 +191,5 @@ Both actions ask for confirmation.
 6. Add optional AI writing and speaking feedback.
 7. Add a structured question editor and importer.
 8. Add cloud sync and accounts only after the local workflow feels solid.
+
+Production deployments on Vercel must set `DATABASE_URL` to a PostgreSQL connection string. The app creates and transactionally updates a single `emock_app_state` row for users, sessions, orders, payment events, entitlements, refunds, and account snapshots. Local development continues to use `data/dev-commerce.json` when `DATABASE_URL` is absent.

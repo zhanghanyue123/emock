@@ -65,7 +65,8 @@ function createClient(config = getAlipayConfig()) {
     privateKey: config.privateKey,
     alipayPublicKey: config.alipayPublicKey,
     gateway: config.gateway,
-    signType: "RSA2"
+    signType: "RSA2",
+    keyType: "PKCS8"
   });
 }
 
